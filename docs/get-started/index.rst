@@ -23,9 +23,9 @@ Preparation of development environment consists of three steps:
 2. Getting of **ESP-IDF** from GitHub
 3. Installation and configuration of **Eclipse**
 
-You may skip the last step, if you prefer to use different editor.
+You may skip the last step, if you prefer to use a different editor.
 
-Having environment set up, you are ready to start the most interesting part - the application development. This process may be summarized in four steps:
+Having your environment set up, you are ready to start the most interesting part - the application development. This process may be summarized in four steps:
 
 1. Configuration of a **Project** and writing the code
 2. Compilation of the **Project** and linking it to build an **Application**
@@ -46,7 +46,7 @@ If you have one of ESP32 development boards listed below, click on provided link
     ESP32 DevKitC <get-started-devkitc>
     ESP-WROVER-KIT <get-started-wrover-kit>
 
-If you have different board, move to sections below.
+If you have a different board, move to sections below.
 
 
 .. _get-started-setup-toochain:
@@ -54,7 +54,7 @@ If you have different board, move to sections below.
 Setup Toolchain
 ===============
 
-Depending on your experience and preferences, you may follow standard installation process or customize your environment. Instructions immediately below are for standard installation. To set up the system your own way go to section :ref:`get-started-customized-setup`.
+Depending on your experience and preferences, you may follow the standard installation process or customize your environment. Instructions immediately below are for standard installation. To set up the system your own way, go to :ref:`get-started-customized-setup`.
 
 
 .. _get-started-standard-setup:
@@ -93,9 +93,9 @@ The quickest way to start development with ESP32 is by installing prebuild toolc
 
 .. note::
 
-    We are using ``~/esp`` directory to install prebuild toolchain, ESP-IDF and sample applications. You can use different directory, but need to adjust respective commands.
+    We are using ``~/esp`` directory to install prebuild toolchain, ESP-IDF and sample applications. You can use a different directory, but need to adjust respective commands.
 
-Once you are done with setting up the toolchain then go to section :ref:`get-started-get-esp-idf`.
+Once you are done setting up the toolchain, go to :ref:`get-started-get-esp-idf`.
 
 
 .. highlight:: bash
@@ -193,7 +193,7 @@ You are almost there. To be able to proceed further, connect ESP32 board to PC, 
 Configure
 =========
 
-Being in terminal window, go to directory of ``hello_world`` application by typing ``cd ~/esp/hello_world``. Then start project configuration utility ``menuconfig``::
+From a terminal window, go to the directory of the ``hello_world`` application by typing ``cd ~/esp/hello_world``. Then, start project configuration utility ``menuconfig``::
 
     cd ~/esp/hello_world
     make menuconfig
